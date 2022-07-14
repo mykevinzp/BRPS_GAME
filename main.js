@@ -71,7 +71,7 @@ const game = () => {
             setTimeout(() => {
                 endScreen.classList.add('fadeIn')
                 location.reload()
-            }, 2000);
+            }, 3000);
 
         }
     }
