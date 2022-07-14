@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BRPS game</title>
+</head>
+
+<body>
+    <section class="game">
+        <div class="score">
+            <h1>score-board</h1>
+            <div class="player-flex">
+                <div class="player-score">
+                    <h2>player:</h2>
+                    <span id="pscore-change">0</span>
+                </div>
+
+                <h3>VS</h3>
+
+                <div class="computer-score">
+                    <h2>computer:</h2>
+                    <span id="cscore-change">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Bomb Rock Paper and Scissors</h1>
+            <button>let's play</button>
+            <div class="intro-image">
+                <img src="./image/bomb.png" width="100px" alt="rock">
+                <img src="./image/rock.png" width="100px" alt="rock">
+                <img src="./image/Paper.png" width="100px" alt="rock">
+                <img src="./image/Scissors.png" width="100px" alt="rock">
+            </div>
+
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">Choose an option</h2>
+            <div class="objects">
+                <h3>player choice: </h3> <img class="player-hand" src="./image/blank.jpg" width="50px" alt="bomb">
+                <h3>computer choice: </h3><img class="computer-hand" src="./image/blank.jpg" width="50px" alt="rock">
+            </div>
+            <div class="options">
+                <button class="bomb">bomb</button>
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="rock">scissors</button>
+            </div>
+        </div>
+
+        <div class="game-over fadeOut">
+            <h2 class="winner">GAME OVER</h2>
+        </div>
+    </section>
+
+
+    <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
